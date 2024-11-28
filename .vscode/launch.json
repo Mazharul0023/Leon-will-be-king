@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/gitdemo/Leon-will-be-king",
-      "program": "d:/gitdemo/Leon-will-be-king/build/Debug/outDebug",
+      "cwd": "d:/gitdemo/Leon-will-be-king/for c++",
+      "program": "d:/gitdemo/Leon-will-be-king/for c++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

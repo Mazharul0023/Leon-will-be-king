@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
 
-    char grade = 'A';
-    int value = grade;
+    double number = 159.99;
+    int value = number;
 
-    cout << value << endl;
+    cout << number << endl;
     return 0;
 }
