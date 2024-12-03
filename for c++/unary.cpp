@@ -27,5 +27,10 @@ int main ()
 
      // logical operators AND && , or || , not !
 
+     cout<<((5<=10) && (10!=10))<<endl;
+     cout<<((5<=10) || (10!=10))<<endl;
+     cout<<(5<=10 &&!(10!=10))<<endl;
+
+
     return 0;
 }
