@@ -38,7 +38,7 @@ else
 return 0;
 
 
-}*/
+}
 
 {
 
@@ -57,4 +57,28 @@ return 0;
     }
 
     return 0;
+}
+
+*/
+
+{
+
+    int a, b;
+
+    cout << "enter a :";
+    cin >> a;
+
+    cout << "enter b :";
+
+    cin >> b;
+
+    if (a > b)
+
+    {
+        cout << "the largest number is:" << a << endl;
+    }
+    else
+    {
+        cout << "the big number is:" << b << endl;
+    }
 }
