@@ -59,7 +59,7 @@ return 0;
     return 0;
 }
 
-*/
+
 
 {
 
@@ -81,4 +81,45 @@ return 0;
     {
         cout << "the big number is:" << b << endl;
     }
+}
+
+
+
+
+{
+    int age = 14;
+    cout<<"enter your age:";
+    cin >>age;
+if (age>=18)
+{
+    cout<<"you can vote now"<<endl;
+
+}
+else
+{
+    cout<<"you are not eligible for voting yet"<<endl;
+}
+return 0;
+
+
+
+} */
+
+{
+    float marks;
+    cout<<"enter your marks:";
+    cin>>marks;
+
+    if(marks>=33)
+    {
+        cout<<"passed";
+
+    }
+    else
+    {
+        cout<<"failed";
+
+
+    }
+    return 0;
 }
