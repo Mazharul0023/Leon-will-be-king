@@ -103,7 +103,7 @@ return 0;
 
 
 
-} */
+} 
 
 {
     float marks;
@@ -122,4 +122,104 @@ return 0;
 
     }
     return 0;
+}
+
+{
+int a ,b ;
+cout<<"Enter your 1st number:";
+cin>>a;
+
+cout<<"Enter your 2nd number:";
+
+cin>>b;
+
+if(a>b)
+
+{
+    cout<<"largest number is:"<<a;
+
+}
+
+else
+{
+    cout<<"largest number is :"<<b;
+}
+
+return 0;
+
+}
+'
+
+
+{
+    int num;
+    cout<<"enter your number:";
+    cin>>num;
+
+    if(num%2==0)
+    {
+        cout<<"even";
+
+    }
+    else
+    {cout<<"odd";
+    }
+    return 0;
+
+}
+
+
+{
+    int marks;
+    cout<<"enter your mark";
+    cin>>marks;
+
+    if(marks>=80)
+    {
+        cout<<"A";
+    }
+
+    else if(marks>=70)
+    {
+        cout<<"B";
+    }
+    
+    else
+    {
+        cout<<"c";
+
+    }
+    return 0;
+
+
+}
+*/
+
+{
+
+int income;
+float tax;
+
+
+cout<<"Enter your income (in lakhs):";
+cin>>income;
+
+if (income<5)
+{
+    tax=0;
+}
+else if (income<=10)
+{
+    tax=0.2*income;
+}
+
+else
+{
+    tax=0.3*income;
+}
+
+cout<<"your tax is:"<<tax*100000;
+
+return 0;
+
 }
